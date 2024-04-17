@@ -59,7 +59,7 @@ function capsUpdate(event) {
 function generateURL(event) {
     event.preventDefault();
 
-    const generatedUrl = 'https://www.giambaj.it/twitch/jchat/v2/?channel=' + $channel.val();
+    const generatedUrl = 'https://jmfoss.github.io/v2/?channel=' + $channel.val();
 
     let data = {
         size: $size.val(),
